@@ -288,7 +288,7 @@ export const prompt = async function(args) {
         constructor(props) {
           super(props);
           this.state = {
-            value: props.value,
+            value: input.value,
           }
         }
         handleValueChange = (value) => {
